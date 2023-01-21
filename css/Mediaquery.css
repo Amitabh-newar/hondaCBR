@@ -1,4 +1,249 @@
-/* Desktop media quey */
-@media screen {
+/* laptop media quey */
+
+@media screen and (max-width: 1024px){
+
+    .nav-bar li {
+        font-size: 14px;
+        
+    }
+
+    .nav-bar button {
+        width: 85px;
+        height: 40px;
+        
+    }
+
+    .banner-img-area img {
+        width: 417px;
+    }
+
+    .product-title hr {
+       
+        margin-left: 476px;
+    }
+
+    .product-image img {
+        width: 270px;
+    }
+
+    .product-news-area {
+        width: 276px;
+        height: auto;
+        
+    }
+
+    .product-img img {
+        width: 256px;
+        height: auto;
+    }
+
+    .reviews {
+        width: 318px;
+        height: auto;
+       
+    }
+
+    .reviewer-img img {
+        width: 244px;
+    }
+
+    .footer-img img{
+        width: 130px;
+    }
     
 }
+/* laptop area end */
+
+/* tablet area start */
+
+@media screen and (max-width: 768px){
+
+    .banner-img-area {
+        padding-left: 220px;
+    }
+
+    .banner-img-area img {
+        width: 320px;
+    }
+
+    .product-image img {
+        width: 220px;
+    }
+    
+    .product-news-area {
+        width: 245px;
+       
+    }
+
+    .product-img img {
+        width: 215px;
+        
+    }
+
+    .review-title h2 {
+       
+        font-size: 38px;
+        
+    }
+
+    .reviews {
+        width: 235px;
+       
+    }
+
+    .reviewer-img img {
+        width: 155px;
+    }
+
+    .question-title h2 {
+        
+        font-size: 33px;
+       
+    }
+
+    .question1 {
+        width: 470px;
+        
+    }
+
+    .question1 h3 {
+        font-size: 18px;
+        
+    }
+
+    .question1 p {
+        font-size: 12px;
+       
+    }
+
+    .footer-left h2 {
+        font-size: 14px;
+        
+    }
+    .footer-left p {
+        font-size: 12px;
+        
+    }
+
+    .footer-img img {
+        width: 112px;
+    }
+}
+/* tablet area end */
+/* mobile area start */
+
+@media screen and (max-width: 425px) {
+
+    .nav-bar ul {
+        display: none;
+    }
+
+    .banner-area {
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .banner-text-area {
+        width: 390px;
+       
+    }
+
+    .banner-img-area {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .product-title {
+       
+        line-height: 40px;
+    }
+
+    .product-title h1 {
+        font-size: 30px;
+        
+    }
+
+    .product-title hr {
+        margin-left: 175px;
+    }
+
+    .product-image {
+        display: flex;
+       flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image img {
+        width: 250px;
+       padding-bottom: 25px;
+    }
+
+    .news-title-text h1 {
+        font-size: 40px;
+       
+    }
+
+    .news-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-news-area {
+        
+        margin: 10px;
+    }
+
+    .review-title h2 {
+        font-size: 35px;
+    }
+
+    .review-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviews {
+        width: 235px;
+        margin-bottom: 10px;
+    }
+
+    .question-area1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .question-img {
+        width: 360px;
+       
+    }
+
+    .question1 {
+        width: 350px;
+        
+    }
+
+    .footer-left h2 {
+        font-size: 10px;
+    }
+
+    .footer-left p {
+        font-size: 7px;
+    }
+
+    .footer-right h2 {
+        font-size: 12px;
+        
+    }
+
+    .footer-img img {
+        width: 80px;
+    }
+    
+}
+
+/* mobile area end */
